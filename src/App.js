@@ -7,8 +7,8 @@ import { LoginCallback, SecureRoute, Security } from '@okta/okta-react';
 function App() {
   return (
     <Router>
-      <Security issuer='https://dev-133320.okta.com/oauth2/default'
-                clientId='0oa3tar9mn2ymCgxI357'
+      <Security issuer='https://dev-24350261.okta.com/oauth2/default'
+                clientId='0oafc0p968zRSc6il5d7'
                 redirectUri={window.location.origin + '/callback'}
                 pkce={true}>
         <SecureRoute path='/' exact={true} component={Calendar}/>

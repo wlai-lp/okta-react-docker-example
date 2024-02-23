@@ -1,3 +1,5 @@
+working SPA with PKCE setting, all interactions are handled by the okta react sdk, not sure how useful it is for LP
+
 # React + Docker Example
  
 This example app shows how to use Docker to containerize a React app.
